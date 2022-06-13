@@ -1,0 +1,25 @@
+.span {
+    padding: 500px;
+
+}
+.home{
+    background-color: #282c34;
+    height: 89vh;
+    font-family: Poppins Regular;
+    font-size: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.register{
+    background-color: #282c34;
+    height: 92vh;
+    font-family: Poppins Regular;
+    font-size: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}

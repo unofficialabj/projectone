@@ -6,6 +6,8 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Register from './Pages/Register'
 import Login from './Pages/Login'
+import './App.css'
+import 'antd/dist/antd.css'
 
 
 
@@ -13,7 +15,12 @@ const App = () => {
   return (
     <div>
     <Router>
+    <div>
         <Navbar />
+
+    </div>
+    <div>
+
         <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
@@ -21,6 +28,7 @@ const App = () => {
         <Route path='/register' element={<Register />}></Route>
         <Route path='/login' element={<Login />}></Route>
         </Routes>
+    </div>
     </Router>
     </div>
   )
